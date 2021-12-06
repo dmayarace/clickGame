@@ -23,10 +23,24 @@ h1 {
     border-color: #5f9ea0;
 }
 
-.inputName{
+.inputName {
     margin: 50px 30px;
     display: flex;
     justify-content: center;
+}
+
+#id {
+    display: flex;
+    text-align: center;
+}
+
+#again {
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: #2bdfe5c4;
+    font-weight: bold;
 }
 
 #start button {
@@ -65,7 +79,7 @@ h1 {
     font-size: 25px;
     width: 200px;
     padding: 10px 10px;
-    margin-left:70px;
+    margin-left: 70px;
 }
 
 #nameBoard {
@@ -86,3 +100,7 @@ h1 {
     padding: 20px;
 }
 
+#button {
+    display: flex;
+    justify-content: center;
+}
