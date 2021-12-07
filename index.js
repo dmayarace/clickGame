@@ -2,17 +2,17 @@ document.getElementById('img').style.display = "none"
 document.getElementById('again').style.display = "none"
 
 let but = document.createElement("button");
-but.textContent = "Click to Play";
-document.getElementById('start').appendChild(but).addEventListener('click',handleClick)
+    but.textContent = "Click to Play";
+    document.getElementById('start').appendChild(but).addEventListener('click',handleClick)
 
 
 function handleClick() {
     let playButton = document.createElement("button");
-    playButton.textContent = "Click like crazy";
-    document.getElementById('play').appendChild(playButton) //.addEventListener('click', playButtonClick);
-    document.getElementById('start').style.visibility = "hidden"
+        playButton.textContent = "Click like crazy";
+        document.getElementById('play').appendChild(playButton) //.addEventListener('click', playButtonClick);
+        document.getElementById('start').style.visibility = "hidden"
     let countPlayButton = 0
-    playButton.addEventListener("click", function() {
+        playButton.addEventListener("click", function() {
         countPlayButton += 1;
         console.log(countPlayButton);
         document.getElementById('numClicks').textContent = countPlayButton
